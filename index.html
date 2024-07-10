@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <!-- Link bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Icone links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Link css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-scrolled navbar-expand-lg fixed-top bg-transparent p-2">
+    <div class="container">
+      <a class="navbar-brand fst-italic fs-4" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler border border-secondary d-flex d-lg-none rounded-1" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <span class="text-white fs-icone-perso me-2">MENU</span>
+        <i class="fa-solid fa-bars fs-icone-perso"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a id="services" class="nav-link text-white p-2 me-4 ft-Montserrat display-6 active" aria-current="page"
+              href="#sect2">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a id="portfolio" class="nav-link text-white p-2 me-4 ft-Montserrat display-6" href="#sect3">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a id="about" class="nav-link text-white p-2 me-4 ft-Montserrat display-6" href="#sect4">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a id="team" class="nav-link text-white p-2 me-4 ft-Montserrat display-6" href="#sect5">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a id="contact" class="nav-link text-white p-2 me-4 ft-Montserrat display-6" href="#sect6">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fin header -->
+  <!-- Section 1 -->
+  <section id="sect1" class="bg-sect1">
+    <div class="container d-flex flex-column align-items-center justify-content-center h-100">
+      <h3 class="text-white text-center pt-5 ft-Roboto fw-medium fs-1">Welcome To Our Studio!</h3>
+      <h1 class="text-white text-center pt-3 fw-bold display-1">IT'S NICE TO MEET YOU</h1>
+      <div class="button text-center mt-5">
+        <a href="#" class="btn btn-warning py-3 px-5 text-white fs-4 fw-medium">TELL ME MORE</a>
+      </div>
+    </div>
+  </section>
+  <!-- Fin section 1 -->
+  <!--  Section 2  -->
+  <section id="sect2" class="my-5">
+    <div class="container text-center p-5">
+      <h1 class="fw-bold ft-Montserrat">SERVICES</h1>
+      <p class="fst-italic text-secondary fs-5 mt-4">Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="row">
+        <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+          <span class="icon d-block d-flex justify-content-center align-items-center w-25 rounded-circle">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </span>
+          <h1 class="fs-perso my-3 fw-bold ft-Montserrat">E-Commerce</h1>
+          <p class="text-secondary ft-Montserrat">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Minima maxime quam architecto quo inventore harum ex magni,
+            dicta impedit.
+          </p>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+          <span class="icon d-block d-flex justify-content-center align-items-center w-25 rounded-circle">
+            <i class="fa-solid fa-laptop"></i>
+          </span>
+          <h1 class="fs-perso my-3 fw-bold ft-Montserrat">Responsive Design</h1>
+          <p class="text-secondary ft-Montserrat">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Minima maxime quam architecto quo inventore harum ex magni,
+            dicta impedit.
+          </p>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+          <span class="icon d-block d-flex justify-content-center align-items-center w-25 rounded-circle">
+            <i class="fa-solid fa-lock"></i>
+          </span>
+          <h1 class="fs-perso my-3 fw-bold ft-Montserrat">Web Security</h1>
+          <p class="text-secondary ft-Montserrat">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Minima maxime quam architecto quo inventore harum ex magni,
+            dicta impedit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  Fin section 2  -->
+  <!--  section 3  -->
+  <section id="sect3" class="my-5 bg-light p-5">
+    <div class="container">
+      <h1 class="text-center fw-bold">PORTFOLIO</h1>
+      <small class="d-block size-small text-center text-secondary mb-5">Lorem ipsum dolor sit amet consectetur.</small>
+      <div class="row g-5">
+
+        <!-- Block image 1 -->
+        <div class="col-12 bg-hover col-md-6 col-lg-4">
+          <div class="block">
+            <div class="box">
+              <!-- image 1 -->
+              <img src="images/1.jpg" alt="" class="img-fluid">
+              <div class="option">
+                <!-- Icon 1 hover -->
+                <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <i class="fa-regular fa-plus"></i>
+                </a>
+                <!-- Modal 1 -->
+                <div class="modal" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content h-100 d-flex flex-column align-items-center justify-content-center">
+                        <div class="containe d-flex flex-column align-items-center justify-content-center">
+                          <div class="row w-100 d-flex justify-content-end">
+                            <button type="button" class="btn-close fs-1 me-1" data-bs-dismiss="modal"></button>
+                          </div>
+                          <h1 class="ft-Montserrat">PROJECT NAME</h1>
+                          <small class="text-secondary fst-italic mb-5">Lorem ipsum dolor sit amet consectetur.</small>
+                          <img src="images/1.jpg" alt="" class="img-fluid">
+                          <p class="w-50 px-0 px-md-5 mt-4">
+                            Use this area to describe your project. 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Est blanditiis dolorem culpa incidunt minus dignissimos 
+                             deserunt repellat aperiam quasi sunt officia expedita 
+                             beatae cupiditate, maiores repudiandae, nostrum,
+                             reiciendis facere nemo!
+                          </p>
+                          <small><span class="fw-bold ft-Montserrat">Client:</span> Threads</small>
+                          <small><span class="fw-bold ft-Montserrat">Catégorie:</span> Illustration</small>
+                          <div class="d-flex justify-content-center mt-4 mb-5">
+                            <button type="button" class="btn butn-close px-3 px-md-5" data-bs-dismiss="modal">
+                              <i class="fa-solid fa-xmark text-white btn-icon"></i>
+                              <span class="text-white fs-5">Close project</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-center mt-3 ft-Montserrat fs-4 fw-bold">Threads</h2>
+            <small class="d-block text-center text-secondary size-small ft-Roboto">Illustration</small>
+          </div>
+        </div>
+
+        <!-- Block image 2 -->
+        <div class="col-12 bg-hover col-md-6 col-lg-4">
+          <div class="block">
+            <div class="box">
+              <!-- image 2 -->
+              <img src="images/2.jpg" alt="" class="img-fluid">
+              <div class="option">
+                <!-- icon 2 hover -->
+                <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                  <i class="fa-regular fa-plus"></i>
+                </a>
+                <!-- Modal 2 -->
+                <div class="modal" id="staticBackdrop1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content h-100 d-flex flex-column align-items-center justify-content-center">
+                        <div class="containe d-flex flex-column align-items-center justify-content-center">
+                          <div class="row w-100 d-flex justify-content-end">
+                            <button type="button" class="btn-close fs-1 me-1" data-bs-dismiss="modal"></button>
+                          </div>
+                          <h1 class="ft-Montserrat">PROJECT NAME</h1>
+                          <small class="text-secondary fst-italic mb-5">Lorem ipsum dolor sit amet consectetur.</small>
+                          <img src="images/2.jpg" alt="" class="img-fluid">
+                          <p class="w-50 px-0 px-md-5 mt-4">
+                            Use this area to describe your project. 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Est blanditiis dolorem culpa incidunt minus dignissimos 
+                             deserunt repellat aperiam quasi sunt officia expedita 
+                             beatae cupiditate, maiores repudiandae, nostrum,
+                             reiciendis facere nemo!
+                          </p>
+                          <small><span class="fw-bold ft-Montserrat">Client:</span> Explore</small>
+                          <small><span class="fw-bold ft-Montserrat">Catégorie:</span> Graphic Design</small>
+                          <div class="d-flex justify-content-center mt-4 mb-5">
+                            <button type="button" class="btn butn-close px-3 px-md-5" data-bs-dismiss="modal">
+                              <i class="fa-solid fa-xmark text-white btn-icon"></i>
+                              <span class="text-white fs-5">Close project</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-center mt-3 ft-Montserrat fs-4 fw-bold">Explore</h2>
+            <small class="d-block text-center text-secondary size-small ft-Roboto">Graphic Design</small>
+          </div>
+        </div>
+
+        <!-- Block image 3 -->
+        <div class="col-12 bg-hover col-md-6 col-lg-4">
+          <div class="block">
+            <div class="box">
+              <!-- image 3 -->
+              <img src="images/3.jpg" alt="" class="img-fluid">
+              <div class="option">
+                <!-- icon 3 hover -->
+                <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                  <i class="fa-regular fa-plus"></i>
+                </a>
+                <!-- Modal 3 -->
+                <div class="modal" id="staticBackdrop2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content h-100 d-flex flex-column align-items-center justify-content-center">
+                        <div class="containe d-flex flex-column align-items-center justify-content-center">
+                          <div class="row w-100 d-flex justify-content-end">
+                            <button type="button" class="btn-close fs-1 me-1" data-bs-dismiss="modal"></button>
+                          </div>
+                          <h1 class="ft-Montserrat">PROJECT NAME</h1>
+                          <small class="text-secondary fst-italic mb-5">Lorem ipsum dolor sit amet consectetur.</small>
+                          <img src="images/3.jpg" alt="" class="img-fluid">
+                          <p class="w-50 px-0 px-md-5 mt-4">
+                            Use this area to describe your project. 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Est blanditiis dolorem culpa incidunt minus dignissimos 
+                             deserunt repellat aperiam quasi sunt officia expedita 
+                             beatae cupiditate, maiores repudiandae, nostrum,
+                             reiciendis facere nemo!
+                          </p>
+                          <small><span class="fw-bold ft-Montserrat">Client:</span> Finish</small>
+                          <small><span class="fw-bold ft-Montserrat">Catégorie:</span> Identity</small>
+                          <div class="d-flex justify-content-center mt-4 mb-5">
+                            <button type="button" class="btn butn-close px-3 px-md-5" data-bs-dismiss="modal">
+                              <i class="fa-solid fa-xmark text-white btn-icon"></i>
+                              <span class="text-white fs-5">Close project</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-center mt-3 ft-Montserrat fs-4 fw-bold">Finish</h2>
+            <small class="d-block text-center text-secondary size-small ft-Roboto">Identity</small>
+          </div>
+        </div>
+
+        <!-- Block image 4 -->
+        <div class="col-12 bg-hover col-md-6 col-lg-4">
+          <div class="block">
+            <div class="box">
+              <!-- image 4 -->
+              <img src="images/4.jpg" alt="" class="img-fluid">
+              <div class="option">
+                <!-- icon 4 hover -->
+                <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                  <i class="fa-regular fa-plus"></i>
+                </a>
+                <!-- Modal 4 -->
+                <div class="modal" id="staticBackdrop3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content h-100 d-flex flex-column align-items-center justify-content-center">
+                        <div class="containe d-flex flex-column align-items-center justify-content-center">
+                          <div class="row w-100 d-flex justify-content-end">
+                            <button type="button" class="btn-close fs-1 me-1" data-bs-dismiss="modal"></button>
+                          </div>
+                          <h1 class="ft-Montserrat">PROJECT NAME</h1>
+                          <small class="text-secondary fst-italic mb-5">Lorem ipsum dolor sit amet consectetur.</small>
+                          <img src="images/4.jpg" alt="" class="img-fluid">
+                          <p class="w-50 px-0 px-md-5 mt-4">
+                            Use this area to describe your project. 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Est blanditiis dolorem culpa incidunt minus dignissimos 
+                             deserunt repellat aperiam quasi sunt officia expedita 
+                             beatae cupiditate, maiores repudiandae, nostrum,
+                             reiciendis facere nemo!
+                          </p>
+                          <small><span class="fw-bold ft-Montserrat">Client:</span> Lines</small>
+                          <small><span class="fw-bold ft-Montserrat">Catégorie:</span> Branding</small>
+                          <div class="d-flex justify-content-center mt-4 mb-5">
+                            <button type="button" class="btn butn-close px-3 px-md-5" data-bs-dismiss="modal">
+                              <i class="fa-solid fa-xmark text-white btn-icon"></i>
+                              <span class="text-white fs-5">Close project</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-center mt-3 ft-Montserrat fs-4 fw-bold">Lines</h2>
+            <small class="d-block text-center text-secondary size-small ft-Roboto">Branding</small>
+          </div>
+        </div>
+
+        <!-- Block image 5 -->
+        <div class="col-12 bg-hover col-md-6 col-lg-4">
+          <div class="block">
+            <div class="box">
+              <!-- image 5 -->
+              <img src="images/5.jpg" alt="" class="img-fluid">
+              <div class="option">
+                <!-- icon 5 hover -->
+                <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                  <i class="fa-regular fa-plus"></i>
+                </a>
+                <!-- Modal 5 -->
+                <div class="modal" id="staticBackdrop4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content h-100 d-flex flex-column align-items-center justify-content-center">
+                        <div class="containe d-flex flex-column align-items-center justify-content-center">
+                          <div class="row w-100 d-flex justify-content-end">
+                            <button type="button" class="btn-close fs-1 me-1" data-bs-dismiss="modal"></button>
+                          </div>
+                          <h1 class="ft-Montserrat">PROJECT NAME</h1>
+                          <small class="text-secondary fst-italic mb-5">Lorem ipsum dolor sit amet consectetur.</small>
+                          <img src="images/5.jpg" alt="" class="img-fluid">
+                          <p class="w-50 px-0 px-md-5 mt-4">
+                            Use this area to describe your project. 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Est blanditiis dolorem culpa incidunt minus dignissimos 
+                             deserunt repellat aperiam quasi sunt officia expedita 
+                             beatae cupiditate, maiores repudiandae, nostrum,
+                             reiciendis facere nemo!
+                          </p>
+                          <small><span class="fw-bold ft-Montserrat">Client:</span> Southwest</small>
+                          <small><span class="fw-bold ft-Montserrat">Catégorie:</span> Website Design</small>
+                          <div class="d-flex justify-content-center mt-4 mb-5">
+                            <button type="button" class="btn butn-close px-3 px-md-5" data-bs-dismiss="modal">
+                              <i class="fa-solid fa-xmark text-white btn-icon"></i>
+                              <span class="text-white fs-5">Close project</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-center mt-3 ft-Montserrat fs-4 fw-bold">Southwest</h2>
+            <small class="d-block text-center text-secondary size-small ft-Roboto">Website Design</small>
+          </div>
+        </div>
+
+        <!-- Block image 6 -->
+        <div class="col-12 bg-hover col-md-6 col-lg-4">
+          <div class="block">
+            <div class="box">
+              <!-- image 6 -->
+              <img src="images/6.jpg" alt="" class="img-fluid">
+              <div class="option">
+                <!-- icon 6 hover -->
+                <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
+                  <i class="fa-regular fa-plus"></i>
+                </a>
+                <!-- Modal 6 -->
+                <div class="modal" id="staticBackdrop5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content h-100 d-flex flex-column align-items-center justify-content-center">
+                        <div class="containe d-flex flex-column align-items-center justify-content-center">
+                          <div class="row w-100 d-flex justify-content-end">
+                            <button type="button" class="btn-close fs-1 mb-5 me-1" data-bs-dismiss="modal"></button>
+                          </div>
+                          <h1 class="ft-Montserrat">PROJECT NAME</h1>
+                          <small class="text-secondary fst-italic mb-5">Lorem ipsum dolor sit amet consectetur.</small>
+                          <img src="images/6.jpg" alt="" class="img-fluid">
+                          <p class="w-50 w-min px-0 px-md-5 mt-4">
+                            Use this area to describe your project. 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Est blanditiis dolorem culpa incidunt minus dignissimos 
+                             deserunt repellat aperiam quasi sunt officia expedita 
+                             beatae cupiditate, maiores repudiandae, nostrum,
+                             reiciendis facere nemo!
+                          </p>
+                          <small><span class="fw-bold ft-Montserrat">Client:</span> Window</small>
+                          <small><span class="fw-bold ft-Montserrat">Catégorie:</span> Photography</small>
+                          <div class="d-flex justify-content-center mt-4 mb-5">
+                            <button type="button" class="btn butn-close px-3 px-md-5" data-bs-dismiss="modal">
+                              <i class="fa-solid fa-xmark text-white btn-icon"></i>
+                              <span class="text-white fs-5">Close project</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-center mt-3 ft-Montserrat fs-4 fw-bold">Window</h2>
+            <small class="d-block text-center text-secondary size-small ft-Roboto">Photography</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--  Fin section 3  -->
+
+  <!--  Section 4  -->
+    <section id="sect4" class="py-5">
+      <div class="container my-5">
+        <h1 class="text-center">ABOUT</h1>
+        <h6 class="text-center pb-5 mb-5 fst-italic text-secondary">Lorem ipsum dolor sit amet consectetur.</h6>
+        <!-- Box 1 -->
+        <div class="row flex-row-reverse flex-md-row">
+          <div class="col-6 col-md-4">
+            <h1 class="fs-perso ">2009-2011 Our Humble Beginnings</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
+              qui quibusdam, recusandae sit vero unde, sed, incidunt et ea 
+              quo dolore laudantium consectetur!
+            </p>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="image d-flex flex-column align-items-center">
+              <img src="images/1 (1).jpg" alt="" class="img-fluid rounded-circle border border-5">
+              <div></div>
+            </div>
+          </div>
+          <div class="col-0 col-md-4"></div>
+        </div>
+        <!-- Box 2 -->
+        <div class="row">
+          <div class="col-0 col-md-4"></div>
+          <div class="col-6 col-md-4">
+            <div class="image d-flex flex-column align-items-center">
+              <img src="images/2 (1).jpg" alt="" class="img-fluid rounded-circle border border-5">
+              <div></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <h1 class="fs-perso ">2009-2011 Our Humble Beginnings</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
+              qui quibusdam, recusandae sit vero unde, sed, incidunt et ea 
+              quo dolore laudantium consectetur!
+            </p>
+          </div>
+        </div>
+        <!-- box 3 -->
+        <div class="row flex-row-reverse flex-md-row">
+          <div class="col-6 col-md-4">
+            <h1 class="fs-perso ">2009-2011 Our Humble Beginnings</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
+              qui quibusdam, recusandae sit vero unde, sed, incidunt et ea 
+              quo dolore laudantium consectetur!
+            </p>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="image d-flex flex-column align-items-center">
+              <img src="images/3 (1).jpg" alt="" class="img-fluid rounded-circle border border-5">
+              <div></div>
+            </div>
+          </div>
+          <div class="col-0 col-md-4"></div>
+        </div>
+        <!-- Box 4 -->
+        <div class="row my-5">
+          <div class="col-0 col-md-4"></div>
+          <div class="col-6 col-md-4">
+            <div class="image d-flex flex-column align-items-center">
+              <img src="images/4 (1).jpg" alt="" class="img-fluid rounded-circle border border-5">
+              <div></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <h1 class="fs-perso ">2009-2011 Our Humble Beginnings</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
+              qui quibusdam, recusandae sit vero unde, sed, incidunt et ea 
+              quo dolore laudantium consectetur!
+            </p>
+          </div>
+        </div>
+        <!-- box5 -->
+        <div class="row">
+          <div class="col-0 col-md-4"></div>
+          <div class="col-6 col-md-4">
+            <div class="image image1 d-flex flex-column align-items-center mt-5">
+              <h4 class="bg-warning rounded-circle d-flex align-items-center justify-content-center border border-5 text-white">BE Part <br> Of Our <br> Story</h4>
+            </div>
+          </div>
+          <div class="col-6 col-md-4"></div>
+        </div>
+      </div>
+    </section>
+  <!--  Fin section 4  -->
+  <!-- Section 5 -->
+  <section id="sect5" class="bg-light py-5">
+    <div class="container d-flex flex-column align-items-center">
+      <h1 class="text-center ft-Montserrat fw-bold">OUR AMAZING TEAM</h1>
+      <p class="text-center ft-Roboto text-secondary fs-5">Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-12 col-lg-4">
+          <div class="card border-0 bg-light">
+            <div class="card-body d-flex flex-column align-items-center">
+              <div class="image-card d-flex flex-column align-items-center">
+                <img src="images/1 (2).jpg" alt="image" class="img-fluid rounded-circle img-card">
+              </div>
+              <h3 class="card-subtitle mt-3 ft-Montserrat">Parveen Anand</h3>
+              <span class="fs-5 mb-3 ft-Roboto">Lead Designer</span>
+              <div class="icon-sociaux">
+                <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D"><i class="fa-brands fa-twitter fs-1 me-3"></i></a>
+                <a href="https://www.facebook.com/?locale=fr_FR"><i class="fa-brands fa-facebook fs-1 me-3"></i></a>
+                <a href="https://www.linkedin.com/home"> <i class="fa-brands fa-linkedin fs-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-12 col-lg-4">
+          <div class="card border-0 bg-light">
+            <div class="card-body d-flex flex-column align-items-center">
+              <div class="image-card d-flex flex-column align-items-center">
+                <img src="images/2 (2).jpg" alt="image" class="img-fluid rounded-circle img-card">
+              </div>
+              <h3 class="card-subtitle mt-3 ft-Montserrat">Parveen Anand</h3>
+              <span class="fs-5 mb-3 ft-Roboto">Lead Designer</span>
+              <div class="icon-sociaux">
+                <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D"><i class="fa-brands fa-twitter fs-1 me-3"></i></a>
+                <a href="https://www.facebook.com/?locale=fr_FR"><i class="fa-brands fa-facebook fs-1 me-3"></i></a>
+                <a href="https://www.linkedin.com/home"> <i class="fa-brands fa-linkedin fs-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-12 col-lg-4"> 
+          <div class="card border-0 bg-light">
+            <div class="card-body d-flex flex-column align-items-center">
+              <div class="image-card d-flex flex-column align-items-center">
+                <img src="images/3 (2).jpg" alt="image" class="img-fluid rounded-circle img-card">
+              </div>
+              <h3 class="card-subtitle mt-3 ft-Montserrat">Parveen Anand</h3>
+              <span class="fs-5 mb-3 ft-Roboto">Lead Designer</span>
+              <div class="icon-sociaux">
+                <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D"><i class="fa-brands fa-twitter fs-1 me-3"></i></a>
+                <a href="https://www.facebook.com/?locale=fr_FR"><i class="fa-brands fa-facebook fs-1 me-3"></i></a>
+                <a href="https://www.linkedin.com/home"> <i class="fa-brands fa-linkedin fs-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="ft-Roboto fst-normal p-card mt-5 fs-5 text-center">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, 
+        totam corporis ea, alias ut unde.
+      </p>
+    </div>
+  </section>
+  <!-- Fin section 5 -->
+  <!-- Section 6 -->
+   <Section id="sect6" class="my-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-sm-6 col-md-3">
+          <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="images/microsoft.svg" alt="..." aria-label="Microsoft Logo"></a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="images/google.svg" alt="..." aria-label="Microsoft Logo"></a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="images/facebook.svg" alt="..." aria-label="Microsoft Logo"></a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="images/ibm.svg" alt="..." aria-label="Microsoft Logo"></a>
+        </div>
+      </div>
+    </div>
+   </Section>
+  <!-- Fin section 6 -->
+  <!-- Section 7 -->
+   <section id="sect7" class="my-7 p-3">
+    <div class="container">
+      <h1 class="text-white fs-1 text-center">CONTACT US</h1>
+      <p class="text-secondary text-center ft-Roboto fs-5">Lorem ipsum dolor sit amet consectetur.</p>
+      <form class="row g-3">
+        <div class="col-12 col-md-6">
+          <div class="row">
+            <div class="col-12">
+              <input type="text" class="form-control p-3 mb-4 fs-5" id="inputPassword2" placeholder="Your Name *" required>
+            </div>
+            <div class="col-12">
+              <input type="email" class="form-control p-3 mb-4 fs-5" id="inputPassword2" placeholder="Your Email *" required>
+            </div>
+            <div class="col-12">
+              <input type="number" class="form-control p-3 fs-5 " id="inputPassword2" placeholder="Your Phone *" required>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <textarea class="form-control h-100" id="exampleFormControlTextarea1" rows="3" placeholder="Your Messge *" required></textarea>
+        </div>
+        <div class="col-12 d-flex mt-5 justify-content-center ">
+          <button type="submit" class="btn btn-primary my-3 butn-form">SEND MESSAGE</button>
+        </div>
+      </form>
+    </div>
+   </section>
+  <!-- Fin section 7 -->
+  <!-- Footer -->
+   <footer>
+    <div class="container p-4">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-12 border col-lg-4 d-flex  justify-content-center align-items-center">
+          <span>Copyright © Your Website 2023</span>
+        </div>
+        <div class="col-12 col-lg-4 d-flex justify-content-center">
+          <div class="icon-footer me-4"><a href=""><i class="fa-brands fa-twitter text-white fs-5"></i></a></div>
+          <div class="icon-footer me-4"><a href=""><i class="fa-brands fa-facebook-f text-white fs-5 px-1"></i></a></div>
+          <div class="icon-footer me-4"><a href=""><i class="fa-brands fa-linkedin-in text-white fs-5"></i></a></div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+              <span>Privacy Policy <span>Terms of Use</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Fin footer -->
+  <!-- Bootstrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- Js page -->
+  <script src="main.js"></script>
+</body>
+
+</html>

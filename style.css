@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Yellowtail&display=swap');
+body{
+    min-width: 315px;
+}
+
+.ft-Yellowtail {
+    font-family: 'Yellowtail';
+}
+
+.ft-Montserrat {
+    font-family: 'Montserrat';
+}
+
+.fs-perso {
+    font-size: calc(1.275rem + 0.3vw);
+}
+
+.fs-icone-perso {
+    font-size: 12px !important;
+    color: rgba(255, 253, 253, 0.719) !important;
+}
+
+.ft-Roboto {
+    font-family: 'Roboto+Slab';
+    font-style: italic;
+    line-height: 2.25rem;
+}
+
+.size-small{
+    font-size: 20px !important;
+    font-style: italic;
+}
+
+.bg-sect1 {
+    background-image: url(images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 115vh;
+}
+
+.bg-warning {
+    background-color: #ffc800;
+    font-size: 20px;
+}
+/* Navbar config */
+.container .navbar-brand{
+    color: #fed136 !important;
+}
+.navbar {
+    transition: all 0.5s;
+}
+
+/* Déclaration de classe qui sera appliquer lors de scoll */
+.navbar-scrolled {
+    background-color: black !important;
+    box-shadow: 0 3px 10px rgba(0,0,0, 0.15);
+}
+
+/* lors de survoller les ongles de navbar */
+.nav-item > .nav-link:hover,
+.nav-item > .nav-link.active {
+    color: #fed136 !important;
+}
+
+/* section services */
+.icon {
+    background-color: #ffc800;
+    height: 20% !important;
+    padding: 65px;
+}
+
+.fa-solid {
+    font-size: 4rem;
+    color: white;
+}
+
+/* Section portfolio */
+.box {
+    position: relative;
+}
+
+.option {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    transition: all 0.5s ease 0S;
+}
+
+.link {
+    text-decoration: none;
+    position: relative;
+    font-size: 50px;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link:hover{
+    color: #fff;
+}
+
+.box:hover .option{
+    display: block;
+    background-color: #fed336da;
+    top: 0;
+}
+
+.modal-dialog {
+    min-width: 100% !important;
+    min-height: 100%;
+}
+
+.modal-content{
+    height: 180vh !important;
+    /* min-width: 360px !important; */
+}
+
+.btn-icon {
+    font-size: 20px;
+}
+
+.butn-close{
+    background-color: #ffc800;
+    height: 160%;
+    width: 150%;
+}
+
+.butn-form{
+    background-color: #ffc800;
+    font-size: calc(0.8rem + 0.3vw);
+    height: 60%;
+    width: 20%;
+}
+
+.butn-close:hover{
+    background-color: #be9b1b;
+}
+
+.butn-form:hover{
+    background-color: #be9b1b;
+}
+
+.image img{
+    width: 50%;
+}
+
+.image1{
+    width: 100%;
+    height: 270%;
+}
+
+.image h4{
+    width: 50%;
+    height: 45%;
+}
+/* partie about */
+
+.image div::before{
+    margin-top: -40px;
+    z-index: -1;
+    content: "";
+    height: 50%; 
+    width: 3px;
+    background-color: #e9ecef;
+    position: absolute;
+}
+
+/* Section AMAZING */
+.img-card {
+    width: 65%;
+    border: 10px solid #e3e4e6;
+}
+
+.fa-brands {
+    color: #212529;
+}
+
+.fa-brands:hover {
+    color: #424649;
+}
+
+.p-card {
+    line-height: 1.75;
+    width: 60%;
+}
+
+.img-brand {
+    width: 70%;
+}
+
+/* Contact Section */
+#sect7 {
+    background-color: #212529;
+    background-image: url(images/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+::placeholder{
+    color: #acadad !important;
+    font-weight: 600;
+}
+
+/* icon footer */
+.icon-footer a {
+    text-decoration: none;
+    padding: 7px;
+    background-color: #212529;
+    border-radius: 50%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-footer a:hover {
+    background-color: #696e74;
+}
+/* Responsivité */
+
+@media screen and (max-width:925px) and (min-width:358px) {
+    .modal-content{
+        height: 200vh !important;
+    }
+}
+
+@media screen and (max-width:357px) {
+    .modal-content{
+        height: 200vh !important;
+    }
+
+    .butn-close span,
+    .butn-close .fa-solid{
+        font-size: 15px !important;
+    }
+   
+
+    .modal-content{
+        min-width:60%;
+    }
+  
+    .w-min{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .image div::before{
+        height: 70%; 
+    }
+
+    .bg-warning {
+        background-color: #ffc800;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .image div::before{
+        height: 100%; 
+    }
+
+    .bg-warning {
+        background-color: #ffc800;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:757px) {
+    .img-brand {
+        width: 50%;
+    }
+
+    .butn-form{
+        width: 40%;
+    }
+
+    .image1{
+        width: 100%;
+        height: 220%;
+    }
+    
+}
