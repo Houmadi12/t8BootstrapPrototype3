@@ -153,7 +153,7 @@ body{
 }
 
 .image1{
-    width: 100%;
+    width: 105%;
     height: 270%;
 }
 
@@ -291,4 +291,53 @@ body{
         height: 220%;
     }
     
+}
+
+@media screen and (max-width:991px) {
+    .image1{
+        width: 110%;
+        height: 175%;
+    }
+
+    .image div::before{
+        height: 60%;    
+    }
+}
+
+@media screen and (max-width:991px) {
+    .image1{
+        width: 95%;
+        height: 175%;
+    }
+}
+
+@media screen and (max-width:463px) {
+    .image1{
+        width: 95%;
+        height: 175%;
+    }
+
+    .image div::before{
+        height: 70%;    
+    }
+
+    .image h4{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:405px) {
+    .image1{
+        margin-left: -30px;
+        width: 150%;
+        height: 175%;
+    }
+
+    .image div::before{
+        height: 100%;    
+    }
+
+    .image h4{
+        font-size: 16px;
+    }
 }
